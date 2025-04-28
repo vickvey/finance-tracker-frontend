@@ -45,7 +45,7 @@ export default function Sidebar({ sidebarOpen, setSidebarOpen }: SidebarProps) {
 
   return (
     <aside
-      className={`bg-[#06140f] flex flex-col h-screen ${
+      className={`sticky top-0 bg-[#06140f] flex flex-col h-screen ${
         sidebarOpen ? 'w-64' : 'w-24'
       } transition-all duration-200`}
     >

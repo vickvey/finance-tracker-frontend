@@ -21,10 +21,10 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
 
       {/* MAIN CONTENT */}
       <main className='w-full bg-[#f8f8f8] text-black/80'>
-        <header className='bg-[#ffffff] flex justify-between items-center h-18 border-b-[1px] py-3 px-8 border-black/10 shadow-2xs'>
+        <header className='sticky top-0 bg-[#ffffff] flex justify-between items-center h-18 border-b-[1px] py-3 px-8 border-black/10 shadow-2xs'>
           <div className='flex flex-col'>
             <h1>Dashboard</h1>
-            <p className='text-sm text-black/60'>
+            <p className='text-sm text-black/60 max-md:hidden'>
               Financial report for{' '}
               <span className='font-bold'>Feb 01, 2024 - Feb 28, 2024</span>
             </p>
